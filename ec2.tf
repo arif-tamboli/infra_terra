@@ -5,5 +5,5 @@ resource "aws_instance" "web"{
   tags = {
     Name = "ec2"
   }
-  user_data = file("ubuntu.sh")
+
 }
